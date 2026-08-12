@@ -1,12 +1,12 @@
 cask "pi-desktop" do
-  version "0.2.0"
+  version "0.2.1"
 
   on_arm do
-    sha256 "dd1fe6d97c27faeeb4a32a70e7895404eed69c323148b447593a9b793180558c"
+    sha256 "275e42647abb1548fa5835ad7262423ae32a3c4ca25eaa6a8af4f8b5a3c39de0"
     url "https://github.com/Jaxton07/pi-desktop/releases/download/v#{version}/pi-desktop-mac-arm64.zip"
   end
   on_intel do
-    sha256 "2322cbcee292597a26a8741dde22654b94b749ec6f4ed52884c7b82ce0cdadad"
+    sha256 "16d8dd1ee4f33cd1bc419498349f2e7c33ea732ea856fd66005bdef3633bbabe"
     url "https://github.com/Jaxton07/pi-desktop/releases/download/v#{version}/pi-desktop-mac-x64.zip"
   end
 
