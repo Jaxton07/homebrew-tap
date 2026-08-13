@@ -12,7 +12,9 @@ cask "pi-desktop" do
 
   name "Pi Desktop"
   desc "Desktop GUI for the Pi coding agent"
-  homepage "https://github.com/Jaxton07/pi-desktop"
+  homepage "https://github.com/Jaxton07/percho"
+
+  deprecate! date: "2026-08-13", because: "was renamed to percho; install jaxton07/tap/percho instead"
 
   app "Pi Desktop.app"
 
