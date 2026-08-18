@@ -1,12 +1,12 @@
 cask "percho" do
-  version "0.3.6"
+  version "0.4.0"
 
   on_arm do
-    sha256 "685a4ffd6b99eebde6ad9d9ab6208705b95008c09aadb476079cc257d95ce17f"
+    sha256 "04fbf9386cb8dfcda96a3d4cd68238c993130c1650b97c2f88b6c599e4dc9850"
     url "https://github.com/Jaxton07/percho/releases/download/v#{version}/percho-mac-arm64.zip"
   end
   on_intel do
-    sha256 "73e4ef2d80c0dc75699271a6008b6a3d8acf300f3619e5d9d093936285543226"
+    sha256 "98efa942044ffdaef92066256b6d6bc9176e688a2744035c2ee9af5d2dde3eb7"
     url "https://github.com/Jaxton07/percho/releases/download/v#{version}/percho-mac-x64.zip"
   end
 
